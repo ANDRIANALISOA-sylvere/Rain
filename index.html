@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+</head>
+<style>
+
+    body
+    {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden;
+        text-align:center;
+    }
+    img
+    {
+        height: 100vh;
+        width: 100%;
+        filter:blur(3px) contrast(80%);
+    }
+    .fa-burn
+    {
+        position: absolute;
+        top: -20px;
+        animation: fall linear forwards;
+        color:white;
+    }
+    @keyframes fall
+    {
+        to
+        {
+            transform: translateY(110vh);
+
+        }
+    }
+</style>
+<body>
+<img src="pexels-visually-us-1643409.jpg" alt="">
+<script src="script.js"></script>
+</body>
+</html>
